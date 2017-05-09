@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lay_header"
+        android:layout_below="@id/tv_date"
+        android:layout_marginTop="15dp"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ib_morning"
+                android:src="@drawable/uncheckedbox"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ib_noon"
+                android:src="@drawable/uncheckedbox"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ib_night"
+                android:src="@drawable/uncheckedbox"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".83"
+            android:text="Name of Pill"
+            android:id="@+id/tv_pill_name"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".83"
+            android:id="@+id/tv_doase"
+            android:text="Dosage"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".83"
+            android:text=""
+            android:id="@+id/tv_completed"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

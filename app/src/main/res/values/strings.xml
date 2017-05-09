@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Pill Reminder</string>
+    <string name="addPillBtn">Add Pill</string>
+    <string name="scheduleBtn">Schedule</string>
+    <string name="editPillBtn">Edit Pill</string>
+    <string name="deleteBtn">Delete Pill</string>
+
+
+    <string name="nameOfPill">Name of Pill</string>
+    <string name="dosage">Dosage</string>
+
+    <string name="saveBtn">Save</string>
+
+    <string name="date">Date: </string>
+    <string name="name">Name</string>
+
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="night">Night</string>
+    <string name="completed">Completed?</string>
+
+    <string name="spinner_prompt">Frequency</string>
+    <string-array name="spinner_prompts">
+        <item>Choose a Frequency</item>
+        <item>1xDay</item>
+        <item>2xDay</item>
+        <item>3xDay</item>
+    </string-array>
+
+</resources>
